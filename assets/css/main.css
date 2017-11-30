@@ -653,7 +653,7 @@ ul.actions.vertical li > * { margin-bottom: 0; }
 ul.actions.vertical li > .button { min-width: 15em; }
 
 ul.actions.vertical.special li:after {
-    background-color: #ffffff;
+    background-color: #cccccc;
     content: '';
     display: block;
     height: 1.5em;
