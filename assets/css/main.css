@@ -23,6 +23,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
+#artistNav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+
 body {
     line-height: 1;
 }
@@ -1522,7 +1532,7 @@ div.gallery {
 
 .google-maps {
     position: relative;
-    padding-bottom: 75%;
+    padding-bottom: 75%; 
     height: 0;
     overflow: hidden;
 }
