@@ -653,12 +653,12 @@ ul.actions.vertical li > * { margin-bottom: 0; }
 ul.actions.vertical li > .button { min-width: 15em; }
 
 ul.actions.vertical.special li:after {
-    background-color: #ffffff;  
+    background-color: #ffffff;
     content: '';
     display: block;
     height: 1.5em;
     left: 50%;
-    position: absolute;
+    position: ;
     top: 100%;
     width: 1px;
 }
