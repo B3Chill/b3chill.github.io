@@ -1308,7 +1308,7 @@ div.gallery {
     margin: 5px;
     float: left;
     display: inline;
-    width: auto;
+    width: 100%;
 }
 
 div.gallery img {
