@@ -1021,8 +1021,8 @@ button:disabled,
     -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
     -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
     transition: opacity 0.5s ease, transform 0.5s ease;
-    max-width: calc(100vw - 6em);
-    width: 86em;
+    max-width: 95%;
+    width: 95%;
 }
 
 .panel > .image {
@@ -1036,7 +1036,7 @@ button:disabled,
     background-size: cover;
     border-radius: 0;
     min-height: 50em;
-    width: 50%;
+    width: inherit;
     z-index: 1;
 }
 
