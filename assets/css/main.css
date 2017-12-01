@@ -520,7 +520,8 @@ input[type="radio"] + label:before { border-radius: 100%; }
 .image img {
     border-radius: 8px;
     display: block;
-    width: 100%;    
+    width: 100%;
+    height: auto;
 }
 
 .image.left, .image.right { max-width: 40%; }
