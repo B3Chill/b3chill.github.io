@@ -23,7 +23,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
      line-height: 1;
-    background: #000000;
 }
 
 ol, ul { list-style: none; }
@@ -515,12 +514,13 @@ input[type="radio"] + label:before { border-radius: 100%; }
     border-radius: 8px;
     border: 0;
     display: inline-block;
-    position: relative;
+    position: relative;    
 }
 
 .image img {
     border-radius: 8px;
     display: block;
+    width: 100%;    
 }
 
 .image.left, .image.right { max-width: 40%; }
