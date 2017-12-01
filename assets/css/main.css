@@ -526,7 +526,10 @@ input[type="radio"] + label:before { border-radius: 100%; }
 
 .image.left, .image.right { max-width: 40%; }
 
-.image.left img, .image.right img { width: 100%; }
+.image.left img, .image.right img {
+     width: 100%;
+    height: auto;
+}
 
 .image.left {
     float: left;
@@ -546,7 +549,10 @@ input[type="radio"] + label:before { border-radius: 100%; }
     width: 100%;
 }
 
-.image.fit img { width: 100%; }
+.image.fit img {
+     width: 100%;
+    height: auto;
+}
 
 .image.main {
     display: block;
@@ -554,7 +560,10 @@ input[type="radio"] + label:before { border-radius: 100%; }
     width: 100%;
 }
 
-.image.main img { width: 100%; }
+.image.main img {
+     width: 100%;
+    height: auto;
+}
 
 /* List */
 
@@ -1047,7 +1056,7 @@ button:disabled,
 .panel > .image img {
     border-radius: 0;
     display: block;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     object-position: center;
     width: 100%;
