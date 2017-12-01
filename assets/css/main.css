@@ -21,9 +21,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
-body {
-     line-height: 1;
-}
+body { line-height: 1; }
 
 ol, ul { list-style: none; }
 
@@ -514,7 +512,7 @@ input[type="radio"] + label:before { border-radius: 100%; }
     border-radius: 8px;
     border: 0;
     display: inline-block;
-    position: relative;    
+    position: relative;
 }
 
 .image img {
@@ -524,10 +522,13 @@ input[type="radio"] + label:before { border-radius: 100%; }
     height: auto;
 }
 
-.image.left, .image.right { max-width: 40%; }
+.image.left, .image.right {
+    max-width: 40%;
+    height: auto;
+}
 
 .image.left img, .image.right img {
-     width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -547,10 +548,11 @@ input[type="radio"] + label:before { border-radius: 100%; }
     display: block;
     margin: 0 0 2em 0;
     width: 100%;
+    height: auto;
 }
 
 .image.fit img {
-     width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -558,10 +560,11 @@ input[type="radio"] + label:before { border-radius: 100%; }
     display: block;
     margin: 0 0 3em 0;
     width: 100%;
+    height: auto;
 }
 
 .image.main img {
-     width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -1053,14 +1056,15 @@ button:disabled,
     z-index: 1;
 }
 
-.panel > .image img {
-    border-radius: 0;
-    display: block;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-}
+    .panel > .image img {
+        border-radius: 0;
+        display: block;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: auto;
+    }
 
 .panel > .content {
     display: -moz-flex;
